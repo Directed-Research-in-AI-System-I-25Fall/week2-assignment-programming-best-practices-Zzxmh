@@ -4,4 +4,4 @@ aloha
 2.确保检查自己在正确的分支上；
 3.git log使用q退出；
 4.使用VScode打开文件时，确保自己处在正确的git项目中而不是另外打开的一个项目，否则你的所有操作不会同步到目标项目中;
-5.git checkout比git reset更加安全，因为它不会删除掉回溯记录之后的所有记录。如果使用git reset回溯，想再回到当前状态，应使用git reflog找到对应的hash值，然后再reset回去。
+5.git checkout比git reset更加安全，因为它不会删除掉回溯记录之后的所有记录。如果使用git reset回溯，想再回到当前状态，应使用git reflog找到对应的hash值，然后再reset回去。善用reflog命令查找所有操作历史记录，它比log更加强大。
